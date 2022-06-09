@@ -1,0 +1,5 @@
+id;path;type;input
+1;/item;GET;
+2;/item/178;GET;
+3;/item;POST;{"name":"item1","quantity": 1}
+2;/item/178;PUT;{"name":"item2","quantity": 1}

@@ -1,0 +1,6 @@
+[DB]
+type=postgresql
+username=postgres
+password=postgres
+server=localhost
+name=simple_fastAPI
