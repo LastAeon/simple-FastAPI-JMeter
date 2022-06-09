@@ -1,0 +1,47 @@
+name: Test JMeter Action
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches: [main]
+
+jobs:
+  action_build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+      
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run fastapi web-server
+        run: |
+          cd fastapi-server
+          uvicorn main:app &
+          cd ..
+
+      - name: Run JMeter Action Load Testing
+        uses: rbhadti94/apache-jmeter-action@v0.5.0
+        with:
+          testFilePath: warehouse-test.jmx
+          outputReportsFolder: reports/
+          args: "--loglevel INFO"
+
+      - name: Upload File
+        uses: actions/upload-artifact@v2
+        with:
+          name: reports
+          path: reports/
