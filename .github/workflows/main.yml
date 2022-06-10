@@ -35,7 +35,7 @@ jobs:
         uses: rbhadti94/apache-jmeter-action@v0.5.0
         with:
           testFilePath: JMeter/simpleFastAPILoadTest.jmx
-          outputReportsFolder: reports/
+          outputReportsFolder: simpleFastAPILoadTestReports/
           args: "--loglevel INFO"
 
       - name: Upload File
