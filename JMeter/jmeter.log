@@ -1,210 +1,163 @@
-2022-06-09 09:11:33,909 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2022-06-09 09:11:33,926 INFO o.a.j.JMeter: Loading user properties from: E:\Documents\buat magang\gdp\kerja\apache-jmeter-5.4.3\bin\user.properties
-2022-06-09 09:11:33,926 INFO o.a.j.JMeter: Loading system properties from: E:\Documents\buat magang\gdp\kerja\apache-jmeter-5.4.3\bin\system.properties
-2022-06-09 09:11:33,926 INFO o.a.j.JMeter: Loading additional properties from: simpleFastAPI.properties
-2022-06-09 09:11:33,927 INFO o.a.j.JMeter: Setting JMeter property: thread_num=5
-2022-06-09 09:11:33,927 INFO o.a.j.JMeter: Setting JMeter property: thread_ramp=5
-2022-06-09 09:11:33,927 WARN o.a.j.JMeter: LogLevel: INFO
-2022-06-09 09:11:33,935 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
-2022-06-09 09:11:33,935 INFO o.a.j.JMeter: Version 5.4.3
-2022-06-09 09:11:33,935 INFO o.a.j.JMeter: java.version=15.0.2
-2022-06-09 09:11:33,935 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2022-06-09 09:11:33,935 INFO o.a.j.JMeter: os.name=Windows 10
-2022-06-09 09:11:33,935 INFO o.a.j.JMeter: os.arch=amd64
-2022-06-09 09:11:33,935 INFO o.a.j.JMeter: os.version=10.0
-2022-06-09 09:11:33,935 INFO o.a.j.JMeter: file.encoding=Cp1252
-2022-06-09 09:11:33,935 INFO o.a.j.JMeter: java.awt.headless=true
-2022-06-09 09:11:33,935 INFO o.a.j.JMeter: Max memory     =1073741824
-2022-06-09 09:11:33,935 INFO o.a.j.JMeter: Available Processors =8
-2022-06-09 09:11:33,944 INFO o.a.j.JMeter: Default Locale=English (EN)
-2022-06-09 09:11:33,945 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2022-06-09 09:11:33,945 INFO o.a.j.JMeter: JMeterHome=E:\Documents\buat magang\gdp\kerja\apache-jmeter-5.4.3
-2022-06-09 09:11:33,945 INFO o.a.j.JMeter: user.dir  =E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI
-2022-06-09 09:11:33,945 INFO o.a.j.JMeter: PWD       =E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI
-2022-06-09 09:11:33,946 INFO o.a.j.JMeter: IP: 172.30.112.1 Name: DESKTOP-ESV6MCN FullName: DESKTOP-ESV6MCN.mshome.net
-2022-06-09 09:11:33,950 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI\simpleFastAPIReport_thread5'
-2022-06-09 09:11:33,952 INFO o.a.j.s.FileServer: Default base='E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI'
-2022-06-09 09:11:33,953 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI'
-2022-06-09 09:11:34,086 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2022-06-09 09:11:34,101 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2022-06-09 09:11:34,103 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2022-06-09 09:11:34,105 INFO o.a.j.s.SaveService: Loading file: simpleFastAPILoadTest.jmx
-2022-06-09 09:11:34,141 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2022-06-09 09:11:34,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-06-09 09:11:34,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-06-09 09:11:34,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-06-09 09:11:34,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-06-09 09:11:34,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2022-06-09 09:11:34,151 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2022-06-09 09:11:34,177 INFO o.a.j.JMeter: Creating summariser <summary>
-2022-06-09 09:11:34,181 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2022-06-09 09:11:34,181 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: simpleFastAPILog_thread5.jtl
-2022-06-09 09:11:34,181 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: E:\Documents\buat magang\gdp\kerja\apache-jmeter-5.4.3\bin\reportgenerator.properties
-2022-06-09 09:11:34,181 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
-2022-06-09 09:11:34,185 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
-2022-06-09 09:11:34,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
-2022-06-09 09:11:34,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
-2022-06-09 09:11:34,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
-2022-06-09 09:11:34,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
-2022-06-09 09:11:34,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
-2022-06-09 09:11:34,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
-2022-06-09 09:11:34,187 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
-2022-06-09 09:11:34,188 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
-2022-06-09 09:11:34,191 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
-2022-06-09 09:11:34,191 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-06-09 09:11:34,192 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found,2022-06-09 09:15:53,684 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI'
-2022-06-09 09:17:07,765 INFO o.a.j.g.a.Load: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\csvTest.jmx
-2022-06-09 09:17:07,765 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script'
-2022-06-09 09:17:07,765 INFO o.a.j.s.SaveService: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\csvTest.jmx
-2022-06-09 09:17:08,052 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2022-06-09 09:17:08,114 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script'
-2022-06-09 09:17:37,254 INFO o.a.j.g.a.Load: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI\simpleFastAPILoadTestTemplate.jmx
-2022-06-09 09:17:37,254 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI'
-2022-06-09 09:17:37,254 INFO o.a.j.s.SaveService: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI\simpleFastAPILoadTestTemplate.jmx
-2022-06-09 09:17:37,292 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2022-06-09 09:17:37,322 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI'
-2022-06-09 09:21:57,133 INFO o.a.j.g.a.Load: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\csvTest.jmx
-2022-06-09 09:21:57,134 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script'
-2022-06-09 09:21:57,134 INFO o.a.j.s.SaveService: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\csvTest.jmx
-2022-06-09 09:21:57,162 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2022-06-09 09:21:57,200 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script'
-2022-06-09 09:22:35,833 INFO o.a.j.g.a.Load: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI\simpleFastAPILoadTestTemplate.jmx
-2022-06-09 09:22:35,834 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI'
-2022-06-09 09:22:35,834 INFO o.a.j.s.SaveService: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI\simpleFastAPILoadTestTemplate.jmx
-2022-06-09 09:22:35,865 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2022-06-09 09:22:35,890 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI'
-2022-06-09 09:23:37,142 INFO o.a.j.g.a.Load: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\csvTest.jmx
-2022-06-09 09:23:37,143 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script'
-2022-06-09 09:23:37,143 INFO o.a.j.s.SaveService: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\csvTest.jmx
-2022-06-09 09:23:37,165 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2022-06-09 09:23:37,193 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script'
-2022-06-09 09:23:56,973 INFO o.a.j.g.a.Load: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI\simpleFastAPILoadTestTemplate.jmx
-2022-06-09 09:23:56,974 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI'
-2022-06-09 09:23:56,974 INFO o.a.j.s.SaveService: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI\simpleFastAPILoadTestTemplate.jmx
-2022-06-09 09:23:57,000 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2022-06-09 09:23:57,030 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI'
-2022-06-09 09:25:39,403 INFO o.a.j.g.a.Load: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\csvTest.jmx
-2022-06-09 09:25:39,404 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script'
-2022-06-09 09:25:39,404 INFO o.a.j.s.SaveService: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\csvTest.jmx
-2022-06-09 09:25:39,431 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2022-06-09 09:25:39,474 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script'
-2022-06-09 09:25:53,643 INFO o.a.j.g.a.Load: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI\simpleFastAPILoadTestTemplate.jmx
-2022-06-09 09:25:53,644 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI'
-2022-06-09 09:25:53,644 INFO o.a.j.s.SaveService: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI\simpleFastAPILoadTestTemplate.jmx
-2022-06-09 09:25:53,671 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2022-06-09 09:25:53,696 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script\simpleFastAPI'
-2022-06-09 09:29:37,166 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-06-09 09:29:37,166 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-06-09 09:29:37,167 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2022-06-09 09:29:37,222 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Scenario 1
-2022-06-09 09:29:37,222 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Scenario 1.
-2022-06-09 09:29:37,222 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-06-09 09:29:37,222 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2022-06-09 09:29:37,223 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-06-09 09:29:37,223 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-06-09 09:29:42,223 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-1
-2022-06-09 09:29:42,314 INFO o.a.j.s.FileServer: Stored: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv Alias: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv@1140117856
-2022-06-09 09:29:42,354 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 1-1
-2022-06-09 09:29:42,354 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-1
-2022-06-09 09:29:42,354 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-06-09 09:29:42,355 INFO o.a.j.s.FileServer: Close: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv@1140117856
-2022-06-09 09:29:42,356 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2022-06-09 09:30:07,413 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-06-09 09:30:07,414 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-06-09 09:30:07,415 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2022-06-09 09:30:07,453 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Scenario 1
-2022-06-09 09:30:07,454 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Scenario 1.
-2022-06-09 09:30:07,454 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-06-09 09:30:07,454 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2022-06-09 09:30:07,455 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-06-09 09:30:07,455 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-06-09 09:30:12,456 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-1
-2022-06-09 09:30:12,457 INFO o.a.j.s.FileServer: Stored: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv Alias: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv@509324020
-2022-06-09 09:30:12,493 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 1-1
-2022-06-09 09:30:12,494 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-1
-2022-06-09 09:30:12,494 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-06-09 09:30:12,494 INFO o.a.j.s.FileServer: Close: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv@509324020
-2022-06-09 09:30:12,494 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2022-06-09 09:33:26,942 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-06-09 09:33:26,942 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-06-09 09:33:26,943 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2022-06-09 09:33:26,984 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Scenario 1
-2022-06-09 09:33:26,984 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Scenario 1.
-2022-06-09 09:33:26,984 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-06-09 09:33:26,984 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2022-06-09 09:33:26,985 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-06-09 09:33:26,985 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-06-09 09:33:31,985 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-1
-2022-06-09 09:33:31,986 INFO o.a.j.s.FileServer: Stored: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv Alias: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv@1737063081
-2022-06-09 09:33:32,017 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 1-1
-2022-06-09 09:33:32,017 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-1
-2022-06-09 09:33:32,018 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-06-09 09:33:32,018 INFO o.a.j.s.FileServer: Close: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv@1737063081
-2022-06-09 09:33:32,018 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2022-06-09 09:33:55,451 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-06-09 09:33:55,452 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-06-09 09:33:55,452 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2022-06-09 09:33:55,483 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Scenario 1
-2022-06-09 09:33:55,484 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Scenario 1.
-2022-06-09 09:33:55,484 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-06-09 09:33:55,484 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2022-06-09 09:33:55,484 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-06-09 09:33:55,484 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-06-09 09:34:00,484 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-1
-2022-06-09 09:34:00,484 INFO o.a.j.s.FileServer: Stored: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv Alias: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv@1281407066
-2022-06-09 09:34:00,538 INFO o.a.j.t.JMeterThread: Thread is done: Scenario 1 1-1
-2022-06-09 09:34:00,538 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-1
-2022-06-09 09:34:00,538 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-06-09 09:34:00,538 INFO o.a.j.s.FileServer: Close: E:/Documents/buat magang/gdp/kerja/JMeter_script/simpleFastAPI/url_template.csv@1281407066
-2022-06-09 09:34:00,538 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2022-06-09 10:27:36,509 INFO o.a.j.g.a.Load: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\warehouse-test.jmx
-2022-06-09 10:27:36,509 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script'
-2022-06-09 10:27:36,510 INFO o.a.j.s.SaveService: Loading file: E:\Documents\buat magang\gdp\kerja\JMeter_script\warehouse-test.jmx
-2022-06-09 10:27:38,164 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2022-06-09 10:27:38,214 INFO o.a.j.s.FileServer: Set new base='E:\Documents\buat magang\gdp\kerja\JMeter_script'
-2022-06-09 10:28:23,411 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-06-09 10:28:23,412 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-06-09 10:28:23,412 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2022-06-09 10:28:23,472 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Scenario 1
-2022-06-09 10:28:23,472 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Scenario 1.
-2022-06-09 10:28:23,472 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-06-09 10:28:23,473 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
-2022-06-09 10:28:23,477 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-06-09 10:28:23,477 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-06-09 10:28:28,474 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-1
-2022-06-09 10:28:28,975 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-2
-2022-06-09 10:28:29,475 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-3
-2022-06-09 10:28:29,974 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-4
-2022-06-09 10:28:30,473 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-5
-2022-06-09 10:28:30,975 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-6
-2022-06-09 10:28:31,476 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-7
-2022-06-09 10:28:31,976 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-8
-2022-06-09 10:28:32,476 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-9
-2022-06-09 10:28:32,975 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-10
-2022-06-09 10:29:28,588 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-4
-2022-06-09 10:29:28,588 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-4
-2022-06-09 10:29:29,089 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-5
-2022-06-09 10:29:29,089 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-5
-2022-06-09 10:29:29,627 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-6
-2022-06-09 10:29:31,122 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-9
-2022-06-09 10:29:30,594 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-8
-2022-06-09 10:29:30,091 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-7
-2022-06-09 10:29:29,680 INFO o.a.j.g.a.Start: Shutting test down
-2022-06-09 10:29:31,135 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-9
-2022-06-09 10:29:31,135 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-6
-2022-06-09 10:29:31,135 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-8
-2022-06-09 10:29:31,136 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-7
-2022-06-09 10:29:31,162 INFO o.a.j.t.JMeterThread: Stopping: Scenario 1 1-2
-2022-06-09 10:29:31,162 INFO o.a.j.t.JMeterThread: Stopping: Scenario 1 1-1
-2022-06-09 10:29:31,162 INFO o.a.j.t.JMeterThread: Stopping: Scenario 1 1-3
-2022-06-09 10:29:31,162 INFO o.a.j.t.JMeterThread: Stopping: Scenario 1 1-10
-2022-06-09 10:29:31,404 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-1
-2022-06-09 10:29:31,405 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-1
-2022-06-09 10:29:31,667 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-10
-2022-06-09 10:29:31,668 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-10
-2022-06-09 10:29:31,730 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-2
-2022-06-09 10:29:31,730 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-2
-2022-06-09 10:29:32,147 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-3
-2022-06-09 10:29:32,147 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-3
-2022-06-09 10:29:32,148 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-06-09 10:29:32,148 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-06-10 10:28:51,921 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-06-10 10:28:51,938 INFO o.a.j.JMeter: Loading user properties from: E:\Documents\buat magang\gdp\kerja\apache-jmeter-5.4.3\bin\user.properties
+2022-06-10 10:28:51,939 INFO o.a.j.JMeter: Loading system properties from: E:\Documents\buat magang\gdp\kerja\apache-jmeter-5.4.3\bin\system.properties
+2022-06-10 10:28:51,939 INFO o.a.j.JMeter: Loading additional properties from: simpleFastAPI.properties
+2022-06-10 10:28:51,939 INFO o.a.j.JMeter: Setting JMeter property: max_duration=100
+2022-06-10 10:28:51,939 WARN o.a.j.JMeter: LogLevel: INFO
+2022-06-10 10:28:51,947 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-06-10 10:28:51,947 INFO o.a.j.JMeter: Version 5.4.3
+2022-06-10 10:28:51,947 INFO o.a.j.JMeter: java.version=15.0.2
+2022-06-10 10:28:51,947 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-06-10 10:28:51,947 INFO o.a.j.JMeter: os.name=Windows 10
+2022-06-10 10:28:51,947 INFO o.a.j.JMeter: os.arch=amd64
+2022-06-10 10:28:51,947 INFO o.a.j.JMeter: os.version=10.0
+2022-06-10 10:28:51,947 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-06-10 10:28:51,947 INFO o.a.j.JMeter: java.awt.headless=true
+2022-06-10 10:28:51,947 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-06-10 10:28:51,947 INFO o.a.j.JMeter: Available Processors =8
+2022-06-10 10:28:51,955 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-06-10 10:28:51,955 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-06-10 10:28:51,955 INFO o.a.j.JMeter: JMeterHome=E:\Documents\buat magang\gdp\kerja\apache-jmeter-5.4.3
+2022-06-10 10:28:51,955 INFO o.a.j.JMeter: user.dir  =D:\Users\Asus\Documents\GitHub\simple-FastAPI-JMeter\JMeter
+2022-06-10 10:28:51,956 INFO o.a.j.JMeter: PWD       =D:\Users\Asus\Documents\GitHub\simple-FastAPI-JMeter\JMeter
+2022-06-10 10:28:51,957 INFO o.a.j.JMeter: IP: 172.30.112.1 Name: DESKTOP-ESV6MCN FullName: DESKTOP-ESV6MCN.mshome.net
+2022-06-10 10:28:51,960 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'D:\Users\Asus\Documents\GitHub\simple-FastAPI-JMeter\JMeter\simpleFastAPIReport_time100'
+2022-06-10 10:28:51,962 INFO o.a.j.s.FileServer: Default base='D:\Users\Asus\Documents\GitHub\simple-FastAPI-JMeter\JMeter'
+2022-06-10 10:28:51,963 INFO o.a.j.s.FileServer: Set new base='D:\Users\Asus\Documents\GitHub\simple-FastAPI-JMeter\JMeter'
+2022-06-10 10:28:52,109 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-06-10 10:28:52,125 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-06-10 10:28:52,128 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-06-10 10:28:52,130 INFO o.a.j.s.SaveService: Loading file: simpleFastAPILoadTest.jmx
+2022-06-10 10:28:52,163 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-06-10 10:28:52,173 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-10 10:28:52,173 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-10 10:28:52,173 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-10 10:28:52,174 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-06-10 10:28:52,174 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-06-10 10:28:52,174 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-06-10 10:28:52,199 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-06-10 10:28:52,202 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2022-06-10 10:28:52,203 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: simpleFastAPILog_time100.jtl
+2022-06-10 10:28:52,203 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: E:\Documents\buat magang\gdp\kerja\apache-jmeter-5.4.3\bin\reportgenerator.properties
+2022-06-10 10:28:52,203 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2022-06-10 10:28:52,207 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2022-06-10 10:28:52,208 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2022-06-10 10:28:52,208 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2022-06-10 10:28:52,209 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2022-06-10 10:28:52,209 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2022-06-10 10:28:52,209 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2022-06-10 10:28:52,209 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2022-06-10 10:28:52,209 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2022-06-10 10:28:52,209 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2022-06-10 10:28:52,214 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2022-06-10 10:28:52,214 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-10 10:28:52,214 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2022-06-10 10:28:52,214 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2022-06-10 10:28:52,214 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2022-06-10 10:28:52,214 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2022-06-10 10:28:52,214 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-10 10:28:52,214 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-10 10:28:52,215 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-10 10:28:52,215 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-06-10 10:28:52,215 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2022-06-10 10:28:52,215 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2022-06-10 10:28:52,215 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2022-06-10 10:28:52,216 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2022-06-10 10:28:52,216 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2022-06-10 10:28:52,216 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2022-06-10 10:28:52,219 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-06-10 10:28:52,219 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-10 10:28:52,219 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-06-10 10:28:52,223 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-06-10 10:28:52,223 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-06-10 10:28:52,358 INFO o.a.j.JMeter: Running test (1654831732358)
+2022-06-10 10:28:52,370 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Scenario 1
+2022-06-10 10:28:52,371 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Scenario 1.
+2022-06-10 10:28:52,371 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-06-10 10:28:52,371 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2022-06-10 10:28:52,383 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-06-10 10:28:52,383 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-06-10 10:28:57,372 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-1
+2022-06-10 10:29:03,371 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-7
+2022-06-10 10:29:02,378 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-6
+2022-06-10 10:29:01,372 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-5
+2022-06-10 10:29:00,371 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-4
+2022-06-10 10:28:59,372 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-3
+2022-06-10 10:28:58,371 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-2
+2022-06-10 10:29:04,370 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-ESV6MCN
+2022-06-10 10:29:04,372 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-8
+2022-06-10 10:29:04,374 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-06-10 10:29:04,375 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-06-10 10:29:04,376 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-06-10 10:29:04,376 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-06-10 10:29:04,376 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-06-10 10:29:04,484 INFO o.a.j.r.Summariser: summary +      1 in 00:00:12 =    0.1/s Avg:    58 Min:    58 Max:    58 Err:     0 (0.00%) Active: 8 Started: 8 Finished: 0
+2022-06-10 10:29:05,371 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-9
+2022-06-10 10:29:06,374 INFO o.a.j.t.JMeterThread: Thread started: Scenario 1 1-10
+2022-06-10 10:29:30,009 INFO o.a.j.r.Summariser: summary +   4828 in 00:00:26 =  189.1/s Avg:    52 Min:    14 Max:   251 Err:   347 (7.19%) Active: 10 Started: 10 Finished: 0
+2022-06-10 10:29:30,010 INFO o.a.j.r.Summariser: summary =   4829 in 00:00:38 =  128.3/s Avg:    52 Min:    14 Max:   251 Err:   347 (7.19%)
+2022-06-10 10:29:57,389 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-1
+2022-06-10 10:29:57,390 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-1
+2022-06-10 10:29:57,391 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-10
+2022-06-10 10:29:57,391 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-10
+2022-06-10 10:29:57,393 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-3
+2022-06-10 10:29:57,394 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-3
+2022-06-10 10:29:57,395 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-2
+2022-06-10 10:29:57,395 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-2
+2022-06-10 10:29:57,396 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-5
+2022-06-10 10:29:57,396 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-5
+2022-06-10 10:29:57,404 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-4
+2022-06-10 10:29:57,404 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-4
+2022-06-10 10:29:57,406 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-8
+2022-06-10 10:29:57,407 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-8
+2022-06-10 10:29:57,414 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-7
+2022-06-10 10:29:57,415 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-7
+2022-06-10 10:29:57,454 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-6
+2022-06-10 10:29:57,454 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-6
+2022-06-10 10:29:57,456 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Scenario 1 1-9
+2022-06-10 10:29:57,456 INFO o.a.j.t.JMeterThread: Thread finished: Scenario 1 1-9
+2022-06-10 10:29:57,457 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-06-10 10:30:11,555 INFO o.a.j.r.Summariser: summary +   4693 in 00:00:42 =  113.0/s Avg:    58 Min:    21 Max:   240 Err:   451 (9.61%) Active: 0 Started: 10 Finished: 10
+2022-06-10 10:30:11,557 INFO o.a.j.r.Summariser: summary =   9522 in 00:01:19 =  120.2/s Avg:    55 Min:    14 Max:   251 Err:   798 (8.38%)
+2022-06-10 10:30:11,560 INFO o.a.j.JMeter: Generating Dashboard
+2022-06-10 10:30:11,560 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2022-06-10 10:30:11,606 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2022-06-10 10:30:12,100 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2022-06-10 10:30:12,100 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2022-06-10 10:30:12,102 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2022-06-10 10:30:12,102 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2022-06-10 10:30:12,128 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2022-06-10 10:30:12,136 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2022-06-10 10:30:12,137 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2022-06-10 10:30:12,137 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2022-06-10 10:30:12,269 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2022-06-10 10:30:12,272 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2022-06-10 10:30:12,273 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2022-06-10 10:30:12,273 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2022-06-10 10:30:12,423 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2022-06-10 10:30:12,425 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 66654 samples
+2022-06-10 10:30:12,425 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2022-06-10 10:30:12,425 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2022-06-10 10:30:12,426 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2022-06-10 10:30:12,426 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2022-06-10 10:30:12,426 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2022-06-10 10:30:12,427 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2022-06-10 10:30:12,430 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2022-06-10 10:30:12,432 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2022-06-10 10:30:12,432 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2022-06-10 10:30:12,433 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2022-06-10 10:30:12,433 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 142830 samples
+2022-06-10 10:30:12,433 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 28566 samples
+2022-06-10 10:30:12,433 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 9522 samples
+2022-06-10 10:30:12,433 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 9522 samples produced in 811ms on channel 0
+2022-06-10 10:30:12,433 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2022-06-10 10:30:12,561 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2022-06-10 10:30:12,561 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2022-06-10 10:30:12,562 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2022-06-10 10:30:12,562 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2022-06-10 10:30:12,564 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to D:\Users\Asus\Documents\GitHub\simple-FastAPI-JMeter\JMeter\simpleFastAPIReport_time100\statistics.json
+2022-06-10 10:30:12,624 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2022-06-10 10:30:12,628 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: D:\Users\Asus\Documents\GitHub\simple-FastAPI-JMeter\JMeter\simpleFastAPIReport_time100
+2022-06-10 10:30:12,782 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: D:\Users\Asus\Documents\GitHub\simple-FastAPI-JMeter\JMeter\simpleFastAPIReport_time100, creating folder structure
+2022-06-10 10:30:12,786 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'E:\Documents\buat magang\gdp\kerja\apache-jmeter-5.4.3\bin\report-template' to 'D:\Users\Asus\Documents\GitHub\simple-FastAPI-JMeter\JMeter\simpleFastAPIReport_time100', got message: D:\Users\Asus\Documents\GitHub\simple-FastAPI-JMeter\JMeter\simpleFastAPIReport_time100, found non empty folder with following content [D:\Users\Asus\Documents\GitHub\simple-FastAPI-JMeter\JMeter\simpleFastAPIReport_time100\statistics.json], will be ignored
+2022-06-10 10:30:16,112 INFO o.a.j.JMeter: Dashboard generated
