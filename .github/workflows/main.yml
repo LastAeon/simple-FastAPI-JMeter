@@ -36,7 +36,7 @@ jobs:
         with:
           testFilePath: JMeter/simpleFastAPILoadTest.jmx
           outputReportsFolder: simpleFastAPILoadTestReports/
-          args: "--loglevel INFO"
+          args: "--loglevel INFO -q JMeter/simpleFastAPI.properties"
 
       - name: Upload File
         uses: actions/upload-artifact@v2
