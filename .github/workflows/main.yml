@@ -29,19 +29,17 @@ jobs:
 
       - name: Run fastapi web-server
         run: |
-          cd fastapi-server
-          uvicorn main:app &
-          cd ..
+          uvicorn main:app --host 127.0.0.1 --port 8000
 
       - name: Run JMeter Action Load Testing
         uses: rbhadti94/apache-jmeter-action@v0.5.0
         with:
-          testFilePath: warehouse-test.jmx
+          testFilePath: JMeter/simpleFastAPILoadTest.jmx
           outputReportsFolder: reports/
           args: "--loglevel INFO"
 
       - name: Upload File
         uses: actions/upload-artifact@v2
         with:
-          name: reports
-          path: reports/
+          name: simpleFastAPILoadTestReports
+          path: simpleFastAPILoadTestReports/
