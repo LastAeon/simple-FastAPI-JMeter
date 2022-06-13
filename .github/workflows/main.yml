@@ -19,7 +19,7 @@ jobs:
 
       - name: Run fastapi docker
         run: |
-          docker compose up
+          docker compose up &
 
       - name: Run JMeter Action Load Testing
         uses: rbhadti94/apache-jmeter-action@v0.5.0
